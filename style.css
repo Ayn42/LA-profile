@@ -1,0 +1,419 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+#header {
+    width: 100%;
+    overflow: hidden;
+    position: fixed;
+    /* レイヤーの順番、高いほど上に表示される*/
+    z-index: 1;
+}
+
+nav {
+    background-color: rgba(221, 204, 204, 0.42);
+    /*  background-color: #d4cbcb;*/
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.wrapper2 h1 {
+    padding-left: 70px;
+    padding-top: 130px;
+    color: rgba(124, 94, 94, 0.6);
+    font-family: 'Playfair Display', serif;
+    font-size: 120px;
+/*
+    align-items: center;
+    justify-content: center;
+*/
+}
+
+.main-visual {
+    display: flex;
+    background-image: url(img/imae3.jpeg);
+    background-size: cover;
+    background-attachment:fixed;
+    height:700px;
+}
+
+nav ul {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    text-align: right;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 40px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: rgba(124, 94, 94, 0.6);
+}
+
+body {
+    font-family: sans-serif;
+    height: 100%;
+}
+
+button {
+    outline: none;
+    border: none;
+}
+
+
+.about {
+    background-color: #f9f6f4;
+    color: #fff;
+    padding: 50px;
+    display: flex;
+    height: 50vh;
+}
+
+.left-box {
+    display: flex;
+    font-size: 30px;
+    width: 50%;
+    padding: 30px;
+    text-align: center;
+    color: #282828;
+    border: 3px, solid, #6b7b7b;
+    font-family: 'Playfair Display', serif;
+    justify-content: center;
+    align-items: center;
+}
+
+.right-box {
+    /*    background-color: coral;*/
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    box-shadow:0px 0px 30px #000000;
+    
+}
+
+.right-box img {
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.about p {
+    font-size: 15px;
+    padding: 30px;
+}
+
+
+.leaders {
+    background-color: #fff;
+    color: #fff;
+    padding: 30px;
+    display: flex;
+    height: 50vh;
+}
+
+.left-box2 {
+/*        background-color: aqua;*/
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+
+.right-box2 {
+    display: block;
+    font-size: 30px;
+    width: 50%;
+    text-align: center;
+    color: #282828;
+    border: 8px solid #ffffff;
+}
+
+
+.left-box2 video {
+    width: 50%;
+    height: 120%;
+}
+
+.right-box2 h2{
+    font-family: 'Playfair Display', serif;
+    padding-top: 10px;
+}
+
+.right-box2 a{
+    font-size:15px;
+    color:#fff;
+    border: 2px solid #c48f8b;
+}
+
+
+.leaders p {
+    padding-top: 40px;
+    font-size: 15px;
+    text-align: center;
+}
+
+
+/*
+.about {
+    background-color: #f9f6f4;
+    color: #fff;
+    padding: 50px;
+    display: flex;
+    height: 50vh;
+}
+*/
+
+.starbucks{
+    display: flex;
+    height: 60vh;
+/*    background-color: #f9f6f4;*/
+/*    background-image: url("img/leadersimage3.png");*/
+/*    opacity: 0.2;*/
+/*    background-size: cover;*/
+    background-color: #f9f6f4;
+}
+
+/*
+.left-box3{
+    display: block;
+    font-size: 30px;
+    width: 50%;
+*/
+/*    padding: 30px;*/
+/*    text-align: center;*/
+/*    color: #282828;*/
+/*    border: 8px solid #ffffff;*/
+/*
+    font-family: 'Playfair Display', serif;
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: center;
+}
+*/
+
+.left-box3 {
+    display: flex;
+    font-size: 30px;
+    width: 50%;
+    padding: 30px;
+    text-align: center;
+    color: #282828;
+    font-family: 'Playfair Display', serif;
+    justify-content: center;
+    align-items: center;
+/*
+    background: rgba(255,255,255,0.5);
+    height: 100%;
+*/
+}
+
+
+
+.right-box3{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:20px;
+}
+.inbox{
+    display: block;
+}
+
+.right-box3 img{
+    border: 5px solid #e8d6d6;
+    margin: 5px;
+}
+
+
+.left-box3 h2{
+    font-family: 'Playfair Display', serif;
+    color: #282828;
+}
+
+.left-box3 p{
+    font-size:15px;
+}
+
+.starbucks ul {
+    font-size: 15px;
+    list-style-type: none;
+    padding-top:20px
+/*   リストの左側にある黒丸を無くしたり、好きな形に変更できる */
+}
+
+.box {
+    float: left;
+}
+
+.contact {
+    padding: 30px;
+/*    background-color: #f1e3de;*/
+    background-image: url(img/image12.jpg);
+    background-size: cover;
+    height: 50vh;
+    color: rgba(124, 94, 94, 0.6);
+    font-family: 'Playfair Display', serif;
+}
+
+.contact a{
+    padding:15px;
+}
+
+.contact h2{
+    font-size:30px;
+}
+
+
+footer {
+    text-align: center;
+    background-color: #c48f8b;
+    color: #ffffff;
+}
+
+.button{
+    position: relative;
+    overflow: hidden;
+}
+
+.button .edge {
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: none repeat scroll 0 0 #3B5998;
+    -webkit-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+
+
+.button .edge1 {
+    width: 1px;
+    -webkit-transform: translate3d(0, -100%, 0);
+    -ms-transform: translate3d(0, -100%, 0);
+    -o-transform: translate3d(0, -100%, 0);
+    transform: translate3d(0, -100%, 0);
+    transition-delay: 0.2s;
+}
+
+.button .edge2 {
+    height: 1px;
+    -webkit-transform: translate3d(100%, 0, 0);
+    -ms-transform: translate3d(0, -100%, 0);
+    -o-transform: translate3d(0, -100%, 0);
+    transform: translate3d(100%, 0, 0);
+}
+
+.button .edge3 {
+    width: 1px;
+    /*leftの設定を初期値に戻す*/
+    left: auto;
+    right: 0;
+    -webkit-transform: translate3d(0, 100%, 0);
+    -ms-transform: translate3d(0, 100%, 0);
+    -o-transform: translate3d(0, 100%, 0);
+    transform: translate3d(0, 100%, 0);
+    transition-delay: 0.2s;
+}
+
+.button .edge4 {
+    height: 1px;
+    top: auto;
+    bottom: 0;
+    -webkit-transform: translate3d(-100%, 0, 0);
+    -ms-transform: translate3d(-100%, 0, 0);
+    -o-transform: translate3d(-100%, 0, 0);
+    transform: translate3d(-100%, 0, 0);
+}
+
+.button:hover .edge {
+    -webkit-transform: translate3d(0, 0, 0);
+    -ms-transform: translate3d(0, 0, 0);
+    -o-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+}
+
+.appstore{
+  display: inline-block;
+  padding: 0.5em 1em;
+  text-decoration: none;
+  background: #c48f8b;
+  color: #FFF;
+  border-radius: 3px;
+}
+
+.appstore:active {
+  /*ボタンを押したとき*/
+  -webkit-transform: translateY(4px);
+  transform: translateY(4px);/*下に動く*/
+  border-bottom: none;/*線を消す*/
+}
+
+.instagram{
+  display: inline-block;
+  padding: 0.5em 1em;
+  text-decoration: none;
+  background: #c48f8b;
+  color: #FFF;
+  border-radius: 20px;
+width: 37px;
+    height: 37px;
+    text-align: center;
+}
+
+.instagram:active {
+  /*ボタンを押したとき*/
+  -webkit-transform: translateY(4px);
+  transform: translateY(4px);/*下に動く*/
+  border-bottom: none;/*線を消す*/
+}
+
+.facebook{
+  display: inline-block;
+  padding: 0.5em 1em;
+  text-decoration: none;
+  background: #c48f8b;
+  color: #FFF;
+  border-radius: 20px;
+  text-align: center;
+  width:37px;
+    height: 37px;
+}
+
+.facebook:active {
+  /*ボタンを押したとき*/
+  -webkit-transform: translateY(4px);
+  transform: translateY(4px);/*下に動く*/
+  border-bottom: none;/*線を消す*/
+}
+
+#photo {
+    width: 500px;
+    margin: 0 auto;
+    text-align: left;
+    overflow: hidden;
+    position: relative;
+}
+
+#photo img {
+    top: 0;
+    left: 0;
+    position: absolute;
+}

@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Pacifico|Satisfy|Stoke|Yellowtail|Geo|Oswald|Lobster" rel='stylesheet' type='text/css'>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="script.js"></script>
+    <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
+</head>
+
+<body>
+    <div id="header">
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#leaders">Leaders</a></li>
+                <li><a href="#starbucks">Starbucks</a></li>
+                <!--    スタバの住所載せる-->
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <div class="main-visual">
+        <div class="wrapper2">
+            　　　
+            <h1>Who is <br>
+                Ayano Fukui?</h1>
+            <!--
+            <script src="//code.jquery-3.4.1.min.js">
+                $('div').fadeIn()
+                const div= document.querySelector('div')
+                div.animate([{opacity:'0'}, {opacity:'1'}],1500)
+            </script>
+-->
+            <link rel="preconnect" href="https://fonts.gstatic.com">
+            <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+        </div>
+
+    </div>
+
+    <section class="about" id="about">
+        <div class="left-box">
+            <div class="button">
+                <!--           <a href="#" class="button">-->
+                <span class="edge edge1"></span>
+                <span class="edge edge2"></span>
+                <span class="edge edge3"></span>
+                <span class="edge edge4"></span>
+                <h2>About me</h2>
+                <link rel="preconnect" href="https://fonts.gstatic.com">
+                <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+
+                <p>本名"福井彩乃"　メンター名"あやのん"<br>
+                    広島生まれ広島育ちの２１歳<br>
+                    早稲田大学文化構想学部３年<br>
+                    好きな食べ物：しゃぶしゃぶ<br>
+                    嫌いな食べ物：パイナップル<br>
+                    最近好きな漫画：プロミスシンデレラ<br>
+                    特技はマラソン・絵を描くこと<br>
+                    趣味はサイクリング・サッカー観戦
+                </p>
+            </div>
+        </div>
+
+        <div class="right-box" id="photo">
+            <img src="img/image11.JPG">
+            <img src="img/photo4.jpg">
+            <img src="img/image10.jpg">
+            <img src="img/myprofile3.jpg">
+        </div>
+
+    </section>
+
+    <section class="leaders" id="leaders">
+        <div class="left-box2">
+            <video src="iPhonemov.mp4" loop autoplay muted playsinline></video>
+        </div>
+
+        <div class="right-box2">
+            <h2>Leaders</h2>
+            <link rel="preconnect" href="https://fonts.gstatic.com">
+            <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+
+            <p>Leaders-east12th<br>
+                App store release 2020/1/25 <br>
+                LeadersではiPhoneコースを受講し<br>オリジナルの画像加工アプリをリリース。<br>
+                このアプリはVSCOやInstagramと違い<br>画像を選択した枚数だけ同時加工する事ができます。<br>
+                AppStoreで「myfilterapp」と検索すると出てくるので<br>是非使ってみてください。
+            </p>
+            <a href="https://apps.apple.com/jp/app/myfilterapp/id1514891372" class="appstore">Appstore</a>
+        </div>
+    </section>
+
+    <section class="starbucks" id="starbucks">
+        <div class="left-box3">
+            <div class="inbox">
+                <h2>Starbucks</h2>
+                <p>早稲田大学の大学内にあるスターバックスで働いています。<br>イラストを描く事が好きなので黒板アートを描いています<br>
+                    ドリンクではアフォガードフラペチーノが1番好きです
+                </p>
+                <ul>
+                    <li>住所：東京都新宿区戸山1-24-1早稲田アリーナ</li>
+                    <li>電話番号：03-6205-5270</li>
+                    <li>営業時間：10:00 〜 18:00</li>
+                </ul>
+            </div>
+        </div>
+        <div class="right-box3">
+            <img id="mypic" onclick="slideshow()" src="img/sbj2.jpg" width="300" height="370">
+            <script>
+                var pics_src = new Array("img/sbj2.jpg", "img/sbj1.jpg", "img/sbj4.jpg");
+                var num = 0;
+
+                function slideshow() {
+                    if (num == 2) {
+                        num = 0;
+                    } else {
+                        num++;
+                    }
+                    document.getElementById("mypic").src = pics_src[num];
+                }
+            </script>
+
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <h2>Contact</h2>
+        <a href="https://www.instagram.com/_ayn.42/?hl=ja" class="instagram"><i class="fab fa-instagram fa-2x"></i></a>
+        <a href="https://www.facebook.com/profile.php?id=100048022205570&sk=about" class="facebook"><i class="fab fa-facebook-f fa-2x"></i></a>
+    </section>
+
+    <footer>&copy; 2020.2.8 Ayano Fukui's Website</footer>
+</body>
+
+</html>
